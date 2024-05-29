@@ -1,0 +1,116 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Apple-September-Event-California-Streaming-BasicAppleGuy-iDownloadBlog-6K-No-Logo-2048x1206.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box p , .btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.btn{   
+    height: 35px;
+    width: 70px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 48.5%;
+    border: none;
+    border-radius: 17px;
+    background-color: rgb(49,112,220);
+    color: aliceblue;
+
+}
+.nw{
+    color: rgb(217,109,49);
+    font-size : 30px;
+}
+.mp{
+    color: aliceblue;
+    font-size: 60px;
+}
+.scp{
+    color: aliceblue;
+    font-size: 80px;
+}
+.box .dollar{
+    color: aliceblue;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 30px;
+}
+.name,.password{
+    color: aliceblue;
+    display: block;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+    width: 200px; 
+    margin-left: 50px;
+}
+.inputs{    
+    width:300px;
+    height: 400px;
+    border: 0.1px solid;
+    border-color: transparent;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 820px;
+    background: blur(50px);
+    backdrop-filter: blur(20px);
+    box-shadow: 1px 1px 10px 0.7px;
+}
+.inputs .name{
+    margin-bottom: 40px;
+}
+.inputs .chkbox{
+    margin-left: 50px;
+}
+.chk{
+    color: aliceblue;
+    opacity: 0.4;
+}
+::placeholder{
+    color: aliceblue;
+    opacity: 0.5;
+}
+.inputs .login-text{
+    text-align: center;
+    margin-top:50px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.sign-up-btn{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.loginbtn{
+    cursor: pointer;
+    height: 30px;
+    width: 70px;
+    font-size: 18px;
+    margin-left: 115px;
+    margin-top: 18px;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: transparent;
+    box-shadow: 1px 1px 10px 0.7px black;
+}
+
+.copy{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 210px;
+}
